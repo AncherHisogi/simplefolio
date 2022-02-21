@@ -1,5 +1,5 @@
 {
-  "hopepage": "https://AncherHisogi.io/simplefolio",
+  "hopepage": "https://AncherHisogi.github.io/simplefolio",
   "name": "simplefolio",
   "version": "1.0.1",
   "private": "true",
@@ -7,7 +7,7 @@
   "source": "src/index.html",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "start": "parcel",
     "build": "parcel build"
   },
